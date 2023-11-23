@@ -8,7 +8,7 @@ export class AppService {
 
   async checkoutPage() {
     console.log('value of body is');
-    const stripe = require('stripe')('sk_test_51OFGqHSHwrFWfvIRf5Aq0fwv73zTrHMI9YWy5aMsmeraTC3ClgdM0oRrxyvdNyNB5473mcmunxS1TTD6mW8T0wRN00HlSXaels');
+    const stripe = require('stripe')('pk_test_51OFGqHSHwrFWfvIREDEsUgHfhz2xdZVo9DO7yKKxtEkLGlFg96EUa814mCi82KeMquq2bhd4U0HTqeyRFEYO7Mth00ZqFtsBNM');
     // console.log('value of stripe at line 13 is', stripe);
 
     // Use an existing Customer ID if this is a returning customer.
